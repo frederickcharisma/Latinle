@@ -60,7 +60,7 @@ function checkWord(Word){
 function setWord(){
     let RandomRoot = int(random(0, Lib.length - 1));
     let Root = Lib[RandomRoot];
-    let Ending = Root.split("-", 0);
+    let Ending = Root.split("-");
     let EndingList = loadStrings(Ending[1]);
     let RandomEnding = int(random(0, EndingList.length - 1));
     return Ending[0] + EndingList[RandomEnding];
