@@ -1,0 +1,3 @@
+vide-PRESENT.txt
+vid-PERFECT.txt
+vide-IMPERFECT.txt
