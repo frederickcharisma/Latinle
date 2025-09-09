@@ -13,7 +13,7 @@ function setup(){
     rectMode(CENTER);
     textAlign(CENTER);
     textSize(25);
-    Lib=loadStrings("data/lib.txt");
+    Lib=loadStrings("lib.txt");
     currentWord=setWord().toUpperCase();
     wordSize=currentWord.length;
     CELLSIZE=(width / wordSize) - 25;
